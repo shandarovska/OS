@@ -36,6 +36,7 @@ for l1 in min:
     i += 1
     
 while i < len(max):
+    file3.write(max[i])
     print(max[i])
     i += 1    
         
