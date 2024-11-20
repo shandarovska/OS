@@ -36,7 +36,7 @@ exit(1)
 #Slichna zadacha, ja smestuva datotekata vo sporeden direktorium
 
 input="$1" #nosime cel path
-if [ -n "input"]; then
+if [ -n "input" ]; then
     base_name=$(basename "input")
     if [ -s "input" ]; then #dali postoi && dali ne e prazen
         dir1="dir1"
